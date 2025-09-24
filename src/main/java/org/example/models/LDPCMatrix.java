@@ -49,4 +49,12 @@ public class LDPCMatrix {
         }
         System.out.println();
     }
+
+    public int getN() {
+        return n;
+    }
+
+    public int getM() {
+        return m;
+    }
 }
