@@ -24,7 +24,7 @@ public class LDPC {
 
         for(int i = wc; i < 2 * wc && i < m; i++){
             int baseRow = i - wc;
-            int shift = rand.nextInt();
+            int shift = rand.nextInt(n);
             for(int j = 0; j < n; j++){
                 if(H[baseRow][j] == 1){
                     H[i][(j + shift) % n] = 1;

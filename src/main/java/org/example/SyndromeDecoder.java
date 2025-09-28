@@ -56,7 +56,7 @@ public class SyndromeDecoder {
         return true;
     }
 
-    private List<int[]> generateCombinations(int n, int weight){
+    public static List<int[]> generateCombinations(int n, int weight){
         List<int[]> results = new ArrayList<>();
         int[] comb = new int[weight];
         for(int i = 0; i < weight; i++){
